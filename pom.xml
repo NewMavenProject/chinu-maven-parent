@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.chinu</groupId>
+	<artifactId>chinu-maven-parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>child</module> 
+		<module>chinu-child2</module>
+		<module>chinucore</module>
+	</modules>
+
+	<!-- <profiles>
+		<profile>
+			<id>fb</id>
+			<modules>
+				<module>child</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>gmail</id>
+			<modules>
+				<module>chinu-child2</module>
+			</modules>
+		</profile>
+	</profiles> -->
+</project>
