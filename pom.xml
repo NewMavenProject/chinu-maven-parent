@@ -9,11 +9,11 @@
 
 	<modules>
 		<module>child</module> 
-		<module>chinu-child2</module>
-		<module>chinucore</module>
+		<!-- <module>chinu-child2</module>
+		<module>chinucore</module> -->
 	</modules>
 
-	<!-- <profiles>
+	<profiles>
 		<profile>
 			<id>fb</id>
 			<modules>
@@ -26,5 +26,5 @@
 				<module>chinu-child2</module>
 			</modules>
 		</profile>
-	</profiles> -->
+	</profiles>
 </project>
