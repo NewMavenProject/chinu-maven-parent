@@ -9,14 +9,7 @@ options {
   maven 'Maven 3.6.3'
 }
 
-   stages {
-     
-     stage('Code Checkout') {
-        steps {
-        git 'https://github.com/NewMavenProject/chinu-maven-parent.git'
-        
-        }
-     }
+   
      
      stage('Generate Build Artifact') {
         steps {
