@@ -13,7 +13,7 @@ options {
      
      stage('Code Checkout') {
         steps {
-        git credentialsId: 'git', url: 'https://github.com/Devops2272/New-Maven-Branch.git'
+        git 'https://github.com/NewMavenProject/chinu-maven-parent.git'
         
         }
      }
