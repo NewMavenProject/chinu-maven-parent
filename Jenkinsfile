@@ -35,4 +35,10 @@ options {
       } 
       
      }
-    }
+   post {
+    always {
+      cleanWs cleanWhenNotBuilt: false, notFailBuild: true
+           }
+         }
+  
+}
