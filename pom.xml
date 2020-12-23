@@ -9,8 +9,8 @@
 
 	<modules>
 		<module>child</module> 
-		<!-- <module>chinu-child2</module>
-		<module>chinucore</module> -->
+		<module>chinu-child2</module>
+		<module>chinucore</module>
 	</modules>
 
 	<profiles>
